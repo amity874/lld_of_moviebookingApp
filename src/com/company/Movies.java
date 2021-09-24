@@ -1,10 +1,9 @@
 package com.company;
     import java.time.LocalDateTime;
-public class Movie{
+public class Movies {
     /**
      * This class represents the movie entity
      */
-    public class Movies {
         private long id ;
         private String name ;
         private String description;
@@ -86,4 +85,4 @@ public class Movie{
                     + duration + ", releaseDate='" + releaseDate + '\'' + ", cast='" + cast + '\'' + ", language=" + language + '}';
         }
     }
-}
+

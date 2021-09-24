@@ -1,6 +1,5 @@
 package com.company;
 import java.util.List;
-
 public class User {
         protected int id ;
         protected String name ;
@@ -14,11 +13,9 @@ public class User {
             this.age = age;
             this.phoneNumbers = phoneNumbers;
         }
-
         public int getId() {
             return id;
         }
-
         public void setId(int id) {
             this.id = id;
         }
